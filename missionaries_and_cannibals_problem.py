@@ -22,8 +22,6 @@ def check_conditions(shore,flag,cflag,boatf):
             num_m = num_m + 1
         else:
             num_c = num_c + 1
-    print("1num_m",num_m)
-    print("1num_c",num_c)
     if(num_m < num_c and num_m > 0):
         return False
     else:
@@ -35,8 +33,6 @@ def check_conditions(shore,flag,cflag,boatf):
             num_m = num_m + 1
         else:
             num_c = num_c + 1
-    print("2num_m",num_m)
-    print("2num_c",num_c)
     if(num_m < num_c and num_m > 0):
         return False
     elif(true == 1):
